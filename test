@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <script>
+   function change() { 
+    var len=document.getElementsByTagName("h1").length;
+    for (var i=0;i<len;i++){
+      document.getElementsByTagName("h1")[i].style.color="green";
+    }
+      alert(document.getElemetsByTagName("h1")[0].style.color);
+    }
+      </script>
+
+</head>
+<body>
+<h1 onclick="change()">test</h1>
+  <h1>test</h1>
+  <h1>test</h1>
+
+</body>
+</html>
